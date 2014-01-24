@@ -6,17 +6,17 @@
     </list>
     <ignored path="SECAnal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542999256" ignored="false" />
+    <file path="/Dummy.txt" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390545155003" ignored="false" />
     <file path="/IndexProfiler.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542909579" ignored="false" />
     <file path="/ContentDownloader.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390537032912" ignored="false" />
     <file path="/fragment.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390537593399" ignored="false" />
-    <file path="/IndexProcessor.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542514213" ignored="false" />
+    <file path="/IndexProcessor.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390545147705" ignored="false" />
     <file path="/FTPConn.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390540636462" ignored="false" />
     <file path="/Inspector.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390539504043" ignored="false" />
     <file path="/Main.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390540274965" ignored="false" />
     <file path="/a.dummy" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390541051549" ignored="false" />
     <file path="/MonthlyIndexProcessor.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390541934951" ignored="false" />
-    <file path="/MongoConnector.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390541864535" ignored="false" />
+    <file path="/MongoConnector.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390545068739" ignored="false" />
     <file path="/SimpleLogger.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542128642" ignored="false" />
     <file path="/Terminate.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542922403" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,10 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexProcessor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IndexProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/IndexProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="34" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
+            <state line="92" column="28" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.6673152">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,16 +104,16 @@
       <file leaf-file-name="MongoConnector.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/MongoConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="10" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0">
+            <state line="64" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexProfiler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IndexProfiler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/IndexProfiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.13229571">
+            <state line="33" column="38" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,10 +170,10 @@
         <option value="$PROJECT_DIR$/src/util/FTPConn.java" />
         <option value="$PROJECT_DIR$/src/runnable/MonthlyIndexProcessor.java" />
         <option value="$PROJECT_DIR$/src/core/log/SimpleLogger.java" />
-        <option value="$PROJECT_DIR$/src/util/MongoConnector.java" />
-        <option value="$PROJECT_DIR$/src/core/IndexProcessor.java" />
         <option value="$PROJECT_DIR$/src/ui/IndexProfiler.java" />
         <option value="$PROJECT_DIR$/src/runnable/Terminate.java" />
+        <option value="$PROJECT_DIR$/src/util/MongoConnector.java" />
+        <option value="$PROJECT_DIR$/src/core/IndexProcessor.java" />
       </list>
     </option>
   </component>
@@ -541,7 +541,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,7 +556,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -723,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/MongoConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="10" selection-start="2901" selection-end="2901" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/runnable/Terminate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="40" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
@@ -739,18 +732,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/IndexProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/IndexProfiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="34" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0">
+        <state line="33" column="38" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/IndexProfiler.java">
+    <entry file="file://$PROJECT_DIR$/src/util/MongoConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.13229571">
+        <state line="64" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/IndexProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="28" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.6673152">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
