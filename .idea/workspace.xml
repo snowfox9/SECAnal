@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-net-3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mongo-2.10.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/qa/Clear.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/ContentDownloader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/DateIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/EdgarEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/Env.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/FTPConn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/IndexProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/IndexProfiler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/Inspector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/MongoConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SECAnal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/log/SimpleLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/core/db/SimpleQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/runnable/Terminate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SECAnal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390536650044" ignored="false" />
+    <file path="/Dummy.txt" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542999256" ignored="false" />
     <file path="/IndexProfiler.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390542909579" ignored="false" />
     <file path="/ContentDownloader.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390537032912" ignored="false" />
     <file path="/fragment.java" changelist="5958d43c-0d39-46ea-8ec9-f9c8a8bc2b24" time="1390537593399" ignored="false" />
@@ -139,7 +113,7 @@
       <file leaf-file-name="IndexProfiler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/IndexProfiler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="47" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6303502">
+            <state line="24" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.13229571">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -564,10 +538,10 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -582,7 +556,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67103696" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -633,7 +607,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuilding SECAnal" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -647,6 +621,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="rebuilding SECAnal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -775,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/IndexProfiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="47" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.6303502">
+        <state line="24" column="22" selection-start="618" selection-end="618" vertical-scroll-proportion="0.13229571">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
