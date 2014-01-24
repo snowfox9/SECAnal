@@ -57,6 +57,11 @@ public class MongoConnector {
         DBCollection collection = mongoDB.getCollection(collectionName);
         document.put("_id", objectId);
         WriteResult writeResult = collection.insert(document, writeConcern);
+        if(!writeResult.getLastError().ok())
+        {
+            System.out.println(writeResult.getLastError().getErrorMessage());
+            return null;
+        }
 
         return objectId.toString();
     }

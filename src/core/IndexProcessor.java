@@ -74,6 +74,8 @@ public class IndexProcessor {
             }
         }
 
+        int insertCount =0;
+
         while(stringTokenizer.hasMoreTokens())
         {
             token = stringTokenizer.nextToken();
@@ -82,10 +84,20 @@ public class IndexProcessor {
             CIK = token.substring(74, 86).trim();
             dateFiled = token.substring(86, 98).trim();
             fileName = token.substring(98).trim();
-            MongoConnector.queryInsert("form", new BasicDBObject().append("formType", formType)
+            String insertID = MongoConnector.queryInsert("form", new BasicDBObject().append("formType", formType)
                     .append("companyName", companyName).append("CIK", CIK).append("dateFiled", dateFiled).append("fileName", fileName)
                     , null);
+            if(insertID == null)
+            {
+                // try once more
+                MongoConnector.queryInsert("form", new BasicDBObject().append("formType", formType)
+                        .append("companyName", companyName).append("CIK", CIK).append("dateFiled", dateFiled).append("fileName", fileName)
+                        , null);
+            }
+            insertCount++;
+            if(insertCount%10 == 0) System.out.print("#");
         }
+        System.out.println();
 
         return true; // empty for index create failure
     }
