@@ -85,7 +85,7 @@ public class FTPConn {
         BufferedInputStream br = new BufferedInputStream(new FileInputStream("data/tmp"));
         showServerReply(ftpClient);
         int fileSize = (int) new File("data/tmp").length();
-        byte[] fileContent = new byte[fileSize];
+        byte[] fileContent = new byte[fileSize+0x10000];
         byte buffer[] = new byte[0x10000]; // buffer with size 64k
         int readCount;
         int length = 0;
@@ -141,7 +141,7 @@ public class FTPConn {
             return ""; // do not download
         }
 
-        byte[] fileContent = new byte[(int) (fileSize/0x10000 + 1) * 0x10000];
+        byte[] fileContent = new byte[(int)fileSize+0x10000];
 
         InputStream in = ftpClient.retrieveFileStream(filename);
         BufferedInputStream br = new BufferedInputStream(in);
