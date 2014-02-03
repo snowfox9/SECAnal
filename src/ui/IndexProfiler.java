@@ -8,6 +8,7 @@ import util.Env;
 import util.FTPConn;
 import util.MongoConnector;
 
+import java.io.File;
 import java.net.SocketException;
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -17,7 +18,7 @@ public class IndexProfiler {
 
     public static void main(String[] args)
     {
-        Main.TestRunConfig();
+        IndexProfiler.TestRunConfig();
         SimpleLogger.InitLogger();
         MongoConnector.initiate();
 
@@ -58,6 +59,46 @@ public class IndexProfiler {
         // server close
         ftpConn.Close();
         Runtime.getRuntime().addShutdownHook(new Terminate());
+    }
+
+    protected static int TestRunConfig()
+    {
+        // test data folder
+        File f = new File("data");
+        if(f.exists() && f.isDirectory())
+        {
+            // fine
+        } else {
+            f.mkdir();
+        }
+
+        // test ENV folder
+        f = new File("data/env");
+        if(f.exists() && f.isDirectory())
+        {
+            // fine
+        } else {
+            f.mkdir(); // no ENV folder
+        }
+
+        // test LOG folder
+        f = new File("data/log");
+        if(f.exists() && f.isDirectory())
+        {
+            // fine
+        } else {
+            f.mkdir(); // no LOG folder
+        }
+
+        f= new File("data/edgar");
+        if(f.exists() && f.isDirectory())
+        {
+            // fine
+        } else {
+            f.mkdir(); // no LOG folder
+        }
+
+        return 0; //for normal exit for test run configuration
     }
 
 }
